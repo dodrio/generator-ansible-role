@@ -68,6 +68,12 @@ module.exports = class extends Generator {
     this.fs.copyTpl([
       `${this.templatePath()}/**`
     ], this.destinationPath(), this.props)
+
+    const mv = (from, to) => {
+      this.fs.move(this.destinationPath(from), this.destinationPath(to))
+    }
+
+    mv('travis.yml', '.travis.yml')
   }
 
   git () {
