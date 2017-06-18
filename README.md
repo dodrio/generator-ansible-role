@@ -1,5 +1,7 @@
 # generator-ansible-role
 
+Scaffold out a ansible role.
+
 ## Install
 
 ```
