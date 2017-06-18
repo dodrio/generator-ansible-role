@@ -1,7 +1,7 @@
 # <%= roleName %>
 
 [![Build Status](https://travis-ci.org/<%= name %>/<%= repoName %>.svg?branch=master)](https://travis-ci.org/<%= name %>/<%= repoName %>)
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-<%= name %>.<%= repoName %>-blue.svg)](https://galaxy.ansible.com/<%= name %>/<%= repoName %>
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-<%= name %>.<%= roleName %>-blue.svg)](https://galaxy.ansible.com/<%= name %>/<%= roleName %>
 
 <%= roleDescription %>
 
