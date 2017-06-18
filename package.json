@@ -1,0 +1,28 @@
+{
+  "name": "generator-ansible-role",
+  "version": "1.0.0",
+  "description": "Scaffold out a ansible role",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m31271n/generator-ansible-role.git"
+  },
+  "keywords": [
+    "ansible-role",
+    "ansible"
+  ],
+  "author": "m31271n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m31271n/generator-ansible-role/issues"
+  },
+  "homepage": "https://github.com/m31271n/generator-ansible-role#readme",
+  "dependencies": {
+    "generator-license": "^5.1.0",
+    "normalize-url": "^1.9.1",
+    "yeoman-generator": "^1.1.1"
+  }
+}
